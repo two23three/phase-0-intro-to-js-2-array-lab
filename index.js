@@ -3,6 +3,9 @@ const cats =[ "Milo" ,"Otis" , "Garfield"]
 function destructivelyAppendCat(name){
     cats.push(name);
 }
+destructivelyAppendCat("tulley")
+console.log(cats);
+
 function destructivelyPrependCat(name){
     cats.unshift(name);
 }
